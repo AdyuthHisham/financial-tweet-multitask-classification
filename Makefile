@@ -6,7 +6,6 @@ figures:
 	$(PY) analysis/fig_training.py
 	$(PY) analysis/fig_results.py
 	$(PY) analysis/fig_architecture.py
-	$(PY) analysis/hero_gif.py
 
 # Optional: recount classes from data/stock_tweets.csv (Kaggle download, not shipped).
 counts:

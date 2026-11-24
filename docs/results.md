@@ -5,9 +5,10 @@
 | Figure / number | File | Source |
 |---|---|---|
 | `media/class_balance.png` | `docs/metrics/stock_class_counts.json` | Counted from the Kaggle CSV by `analysis/count_classes.py` (`make counts`) |
-| `media/training_curves.png`, `media/hero.gif` | `approachB_head_phase.json`, `approachB_full_phase.json` | Parsed from saved cell outputs of `notebooks/ApproachB.ipynb` by `analysis/extract_metrics.py` |
+| `media/training_curves.png` | `approachB_head_phase.json`, `approachB_full_phase.json` | Parsed from saved cell outputs of `notebooks/ApproachB.ipynb` by `analysis/extract_metrics.py` |
 | Approach B test scores | `approachB_test.json` | Same notebook, test-set evaluation cell |
 | `media/results.png` (Approach A bars, and the B bars) | `report_tables.json` | Typed from Tables I and II of the project report. `ApproachA.ipynb` has no saved outputs, so Approach A cannot be checked from the repo |
+| `media/example_output.png` | none | Clipped from the project poster (panel "Example: Real Tweet to Predictions"). Crop: `magick SSY340_Project_Poster.png -crop 1740x560+1566+3440 +repage media/example_output.png`. The Approach A output appears only there. Approach B's output (Bullish 81.28%, Tesla, Inc. 100.00%) is also in the notebook's last cell |
 | `media/architecture.svg` | none | Drawn by `analysis/fig_architecture.py` from the method description |
 
 Nothing was re-trained for this repo. The notebooks need a GPU and downloads.

@@ -4,7 +4,9 @@
 
 ## TLDR
 
-![Validation accuracy of the multi-task model rising over 20 epochs of fine-tuning, ending at test accuracy 0.84 for sentiment and 0.68 for company](media/hero.gif)
+![Poster panel: a tweet reading 'Am considering taking Tesla private at $420. Funding secured.' with Approach A output (Tesla, score 0.91; Bullish, score 0.93) and Approach B output (Tesla, Inc. 100.00%; Bullish 81.28%)](media/example_output.png)
+
+*The model in use: one tweet in, a company and a sentiment out. Clipped from the project poster; Approach B's output is also reproduced in `notebooks/ApproachB.ipynb`.*
 
 **Problem.** A tweet about a listed company carries two things we want: how the author feels about the stock (bearish, neutral, bullish) and which company it is about. No public dataset has both labels. One has sentiment only, the other has company only.
 
@@ -20,7 +22,7 @@ notebooks/   the two course notebooks (Approach A, Approach B) with their saved 
 src/         tweet normaliser and the 21-class company mapping
 analysis/    scripts that regenerate every figure and the metrics JSON
 docs/        method notes, results and data sources, metrics/*.json
-media/       figures, diagram and the hero GIF used here
+media/       figures, diagram and the poster clipping used here
 Makefile     `make figures`
 ```
 
