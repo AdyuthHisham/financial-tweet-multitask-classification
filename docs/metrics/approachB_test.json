@@ -1,0 +1,90 @@
+{
+  "source": "notebooks/ApproachB.ipynb, test-set evaluation cell",
+  "checkpoints": {
+    "best_model_A.pt": {
+      "accuracy": {
+        "company": 0.4986,
+        "sentiment": 0.2666
+      },
+      "f1_macro": {
+        "company": 0.472,
+        "sentiment": 0.2666
+      },
+      "f1_weighted": {
+        "company": 0.5085,
+        "sentiment": 0.2661
+      }
+    },
+    "best_model_B.pt": {
+      "accuracy": {
+        "company": 0.4898,
+        "sentiment": 0.2666
+      },
+      "f1_macro": {
+        "company": 0.4608,
+        "sentiment": 0.2666
+      },
+      "f1_weighted": {
+        "company": 0.5046,
+        "sentiment": 0.2661
+      }
+    },
+    "final_best_model_A.pt": {
+      "accuracy": {
+        "company": 0.6804,
+        "sentiment": 0.8351
+      },
+      "f1_macro": {
+        "company": 0.6841,
+        "sentiment": 0.8317
+      },
+      "f1_weighted": {
+        "company": 0.6485,
+        "sentiment": 0.8315
+      }
+    },
+    "final_best_model_B.pt": {
+      "accuracy": {
+        "company": 0.6794,
+        "sentiment": 0.836
+      },
+      "f1_macro": {
+        "company": 0.6758,
+        "sentiment": 0.8329
+      },
+      "f1_weighted": {
+        "company": 0.6477,
+        "sentiment": 0.8327
+      }
+    },
+    "final_model_A.pt": {
+      "accuracy": {
+        "company": 0.6673,
+        "sentiment": 0.8324
+      },
+      "f1_macro": {
+        "company": 0.6651,
+        "sentiment": 0.8296
+      },
+      "f1_weighted": {
+        "company": 0.6451,
+        "sentiment": 0.8293
+      }
+    },
+    "final_model_B.pt": {
+      "accuracy": {
+        "company": 0.6718,
+        "sentiment": 0.8296
+      },
+      "f1_macro": {
+        "company": 0.6849,
+        "sentiment": 0.8266
+      },
+      "f1_weighted": {
+        "company": 0.6538,
+        "sentiment": 0.8264
+      }
+    }
+  },
+  "selected": "final_best_model_A.pt (best by accuracy and by macro F1 in the notebook)"
+}
