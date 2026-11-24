@@ -1,4 +1,4 @@
-> What is this project about?
+> What is this project about? Teaching one language model to read a tweet about a listed company and say both how the author feels about the stock and which company it is about, even though no dataset has both labels. We compared two fine-tuned models against one shared-encoder multi-task model. A two-person SSY340 course project (Chalmers).
 
 # Financial tweet classification: sentiment and company in one model
 
